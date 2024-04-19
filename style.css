@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    background-color: #0a0a0a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.contents>li {
+    list-style: none;
+}
+
+.contents {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo>a,
+.contents>li>a {
+    color: #EEE5E0;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 2vh 10vh;
+    height: 5vh;
+}
+
+.main {
+    height: 90vh;
+    background-image: url("bgfinal.jpg");
+    background-size: cover;
+}
+
+.info {
+    height: 25vh;
+    background-color: #0a0a0a00;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading {
+    color: #EEE5E0;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10rem;
+    flex: 0 0 120vh;
+}
+
+.text {
+    color: #EEE5E0;
+    font-weight: 400;
+    font-style: italic;
+    align-self: center;
+    padding-left: 2vh;
+}
+
+.images {
+    height: 65vh;
+    background-color: #0a0a0a00;
+}
+
+.html {
+    height: 7vh;
+    width: 15vh;
+    background-color: #ED5D2A;
+    border-radius: 10%;
+    position: relative;
+    top: 15vh;
+    left: 40vh;
+    transform: rotate(-25deg);
+    color: #EEE5E0;
+}
+
+.css {
+    height: 7vh;
+    width: 12vh;
+    background-color: #1775BC;
+    border-radius: 10%;
+    position: relative;
+    top: 18vh;
+    left: 12vh;
+    transform: rotate(-25deg);
+    color: #EEE5E0;
+}
+
+.js {
+    height: 12vh;
+    width: 12vh;
+    background-color: #FCB13F;
+    border-radius: 10%;
+    position: relative;
+    top: 30vh;
+    left: 30vh;
+    transform: rotate(-5deg);
+    font-size: 2rem;
+}
+
+.images>.up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.node {
+    height: 10vh;
+    width: 15vh;
+    background-color: #88BD5B;
+    border-radius: 10%;
+    position: relative;
+    bottom: 10vh;
+    left: 60vh;
+    transform: rotate(-5deg);
+    color: #EEE5E0;
+}
+
+.figma {
+    height: 8vh;
+    width: 20vh;
+    background-color: #88BD5B;
+    border-radius: 10%;
+    position: relative;
+    left: 120vh;
+    top: 10vh;
+    transform: rotate(-5deg);
+    background:
+        linear-gradient(125.31deg, #F24E1E 0%, #FF7262 100%);
+    color: #EEE5E0;
+}
+
+.canva {
+    height: 7vh;
+    width: 20vh;
+    background-color: #88BD5B;
+    border-radius: 10%;
+    position: relative;
+    left: 90vh;
+    bottom: 15vh;
+    transform: rotate(-5deg);
+    background:
+        linear-gradient(125.31deg, #01C3CC 0%, #2A89DA 60%, #7D2AE7 100%);
+    color: #EEE5E0;
+    border-radius: 10%;
+}
+
+.sql {
+    height: 10vh;
+    width: 20vh;
+    background-color: #88BD5B;
+    border-radius: 10%;
+    position: relative;
+    left: 150vh;
+    bottom: 30vh;
+    transform: rotate(-5deg);
+    background-color: #CD8B2B;
+    color: #EEE5E0;
+    border-radius: 20%;
+}
+
+
+.intro{
+    height: 100vh;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introHead{
+    height: 5vh;
+    color: #EEE5E0;
+    font-size: 2.1rem;
+    margin-bottom: 5vh;
+}
+
+.introMain{
+    height: 70vh;
+    color: #EEE5E0;
+    line-height: 200%;
+    font-size: 1.8rem;
+    padding-top: 5vh;
+    align-self: self-start;
+}
